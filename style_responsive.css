@@ -1,0 +1,318 @@
+@media(width<=1500px){
+    nav{
+        position: fixed;
+    }
+    footer div li ul{
+        font-size: .7rem;
+    }
+}
+@media(width<1400px) 
+{
+    nav{
+        position: fixed;
+    }
+    .top_offer_image img{
+        height: 15rem;
+    }
+    .bank-offer a img{
+        height: 17rem;
+    }
+}
+@media(width<1300px){
+    .bank-offer a img{
+        height: 16rem;
+    }
+}
+
+@media(width<1200px) {
+    html {
+        font-size: 60%;
+    }
+
+    .top_offer_image img {
+        height: 15rem;
+    }
+
+    
+}
+
+@media(width<1150px) {
+    html {
+        font-size: 55%;
+    }
+
+    .search {
+        width: 40rem;
+    }
+
+    .offer_p {
+        font-size: 2.2rem;
+    }
+
+    .offer_btn button {
+        padding: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .top_offer_image img {
+        height: 14rem;
+    }
+    .bank-offer a img{
+        height: 16.5rem;
+    }
+
+}
+
+@media(width<1100px){
+    .bank-offer a img{
+        height: 15rem;
+    }
+}
+@media(width<1000px){
+    .bank-offer a img{
+        height: 14.5rem;
+    }
+}
+
+@media(width<950px){
+    .bank-offer a img{
+        height: 14rem;
+    }
+}
+
+
+
+
+@media(width<925px) {
+    html {
+        font-size: 48%;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+    .first-logo{
+        font-size: 3rem;
+    }
+    .second-logo, .third-logo{
+        font-size: 1.4rem;
+    }
+
+   
+    .search{
+        width: 33rem;
+        border-radius: 2rem;
+    }
+    ::placeholder{
+        font-size: 1.5rem;
+    }
+    nav {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 0;
+        padding-top: 1rem;
+        width: 100%;
+    }
+    
+  
+    .navlist li .login-btn {
+        padding: .5rem 2rem;
+        border: none;
+        border-radius: 2rem;
+        margin: .4rem;
+    }
+
+    .navlist {
+        position: absolute;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 50rem;
+        display: flex;
+        flex-direction: column;
+        background-color: #2874F0;
+         text-align: left;
+        transition: .5s;
+    }
+    .navlist.open {
+        right: 0%;
+    }
+    
+    
+    
+    .navlist li {
+        border-left: .3rem solid #FFFFFF;
+        border-bottom:.3rem solid #FFFFFF;
+        border-radius: 1rem;
+        width: 15rem;
+        height: 5rem;
+        padding: 2rem;
+
+    }
+    
+    .navlist li a{
+        font-size: 1.5rem;
+    }
+    .navlist li:hover {
+        color: #bc8989;
+    }
+    
+    
+
+    .slider{
+        margin-top: 3rem;
+      }
+      .featureProduct_image img{
+        height: 8rem;
+      }
+    
+    section{
+        margin-top: 15rem;
+    }
+    .top_offer_image img {
+        height: 12rem;
+    }
+
+    
+
+}
+
+@media(width<815px){
+    .bank-offer a img{
+        height: 13rem;
+    }
+}
+
+@media(width<780px){
+    html{
+        font-size: 45%;
+    }
+    .offer_p{
+        font-size: 1.4rem;
+    }
+    .offer_btn button{
+        font-size: .8rem;
+    }
+    .top_offer_image img{
+        height: 10rem;
+    }
+    .top_offer_image{
+        display: flex;
+        justify-content: center;
+    }
+    .top_offer_image img{
+        height: 8rem;
+    }
+   
+   footer div li{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+   }
+}
+@media(width<715px){
+    .bank-offer a img{
+        height: 12rem;
+    }
+}
+
+
+@media(width<690px){
+    html{
+        font-size: 40%;
+    }
+
+}
+
+@media(width<600px){
+    .bank-offer a img{
+        height: 11.5rem;
+    }
+}
+
+@media(width<550px){
+    html{
+        font-size: 38%;
+    }
+    .first-logo{
+        font-size: 4rem;
+    }
+    .second-logo, .third-logo{
+        font-size: 1.8rem;
+    }
+    .search-icon{
+        font-size: 2rem;
+    }
+    .featureProduct_image img{
+        height: 4rem;
+    }
+    
+    .top_offer_list .i1{
+        display: none;
+    }
+    .top_offer_image img{
+        height: 18rem;
+    }
+    .offer_p{
+        font-size: 3rem;
+    }
+    .offer_btn button{
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 1.7rem 2.2rem;
+    }
+
+    .bank-offer a img{
+        height: 19rem;
+    }
+
+    footer div li {
+        font-size: 1.5rem;
+    }
+    footer div li ul{
+        font-size: 1.8rem;
+    }
+}
+
+@media(width<450px){
+    .bank-offer a img{
+        height: 16rem;
+    }
+}
+@media(width<400px){
+    .bank-offer a img{
+        height: 15rem;
+    }
+}
+@media(width<350px){
+    .bank-offer a img{
+        height: 13.5rem;
+    }
+}
+@media(width<320px){
+    .bank-offer a img{
+        height: 13rem;
+    }
+}
+@media(width<310px){
+    .bank-offer a img{
+        height: 12.5rem;
+    }
+}
+@media(width<295px){
+    .bank-offer a img{
+        height: 12rem;
+    }
+}
+@media(width<287px){
+    .bank-offer a img{
+        height: 11rem;
+    }
+}
+@media(width<270px){
+    .bank-offer a img{
+        height: 20rem;
+    }
+}
